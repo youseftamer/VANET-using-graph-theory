@@ -6,7 +6,7 @@ clear img4
 
 yes = 0;
 
-img = imread('map2.jpg');
+img = imread('map1.JPG');
 [a, b, c] = size(img);
 img4 = img;
 
@@ -30,6 +30,7 @@ for i = 1:a
     end
 end
 
+
 if yes == 1
     subplot(2, 3, 2);
     axis([0 b 0 a]);
@@ -42,6 +43,7 @@ se = strel('disk',5);
 img2 = imclose(img, se);
 se = strel('disk',0);
 img2 = imopen(img2,se);
+
 
 if yes == 1
     subplot(2, 3, 3)
@@ -86,6 +88,9 @@ height(G.Nodes)
 %             G = rmnode(G, i);
 %         end
 %     end
+figure(2)
+plot(G, 'xdata', y, 'ydata', x);
+
 if yes == 1
     subplot(2, 3, 5);
     axis([0 b 0 a]);
@@ -106,7 +111,7 @@ else
     axis([0 b 0 a]);
     image(img4);
     plot(G, 'xdata', y, 'ydata', x);
-    title('Helwan');
+    
 end
     
     
