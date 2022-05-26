@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>e5a29651-4a80-11e4-9553-005056977bd0</identifier>
+  <displayType>Collection</displayType>
+  <translatedDisplayType>
+    <en_US>Collection</en_US>
+    <ja_JP>コレクション</ja_JP>
+    <ko_KR>컬렉션</ko_KR>
+    <zh_CN>集合</zh_CN>
+  </translatedDisplayType>
+  <name>Skel2Graph 3D</name>
+  <author>Philip Kollmannsberger</author>
+  <version>1.22.0.1</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/e5a29651-4a80-11e4-9553-005056977bd0/124642e3-77f4-4c79-830b-f2d5fc3234e6/packages/zip?src=addons_ml_desktop_install&amp;profile_id=26409319&amp;license=0&amp;release_family=R2021a</downloadUrl>
+  <licenseUrl>https://addons.mathworks.com/registry/v1/e5a29651-4a80-11e4-9553-005056977bd0/1.22.0.1/-/license</licenseUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/e5a29651-4a80-11e4-9553-005056977bd0/124642e3-77f4-4c79-830b-f2d5fc3234e6/images/screenshot.png</previewImageUrl>
+  <releaseNotesUrl>https://www.mathworks.com/add-ons/e5a29651-4a80-11e4-9553-005056977bd0/124642e3-77f4-4c79-830b-f2d5fc3234e6/releaseNotes</releaseNotesUrl>
+  <installationFolder>Collections</installationFolder>
+</addOn>
